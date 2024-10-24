@@ -1,5 +1,6 @@
 {
     "name": "gingdev/turso-hrana-dbal",
+    "version": "1.0.0",
     "description": "Doctrine DBAL Driver for Turso HTTP API",
     "type": "library",
     "license": "MIT",
@@ -15,11 +16,9 @@
         }
     ],
     "prefer-stable": true,
-    "minimum-stability": "dev",
+    "minimum-stability": "stable",
     "require": {
-        "ext-sqlite3": "*",
-        "amphp/websocket-client": "^2.0",
-        "gingdev/turso-hrana-php": "dev-main"
+        "gingdev/turso-hrana-php": "^1.0"
     },
     "require-dev": {
         "doctrine/dbal": "^4.2",
